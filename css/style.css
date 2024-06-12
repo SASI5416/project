@@ -979,11 +979,27 @@
 .card{
     background-color:#f74780;
     border-radius: 10px;
+
     
 }
 .v-head{
     font-size: 18px;
     color: #DDDDDD;
+    
+}
+
+.card-1{
+    background-color:#f74780;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:5px;
+    height:10vh;
+    width:25vw;
+    color:white;
+    padding-top: 4px;
+    
+
+    
     
 }
 
@@ -1089,6 +1105,7 @@
     position: relative;
     height: 100%;
     min-height: 400px;
+    
 }
 
 .img-border::before {
@@ -1110,4 +1127,5 @@
     height: calc(100% - 3rem);
     object-fit: cover;
     border-radius: 6px;
+   
 }

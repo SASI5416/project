@@ -975,3 +975,14 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+.card{
+    background-color:#f74780;
+    border-radius: 10px;
+    
+}
+.v-head{
+    font-size: 18px;
+    color: #DDDDDD;
+    
+}

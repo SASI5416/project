@@ -67,8 +67,8 @@
 }
 
 .btn.btn-primary {
-    background: var(--bs-primary) !important;
-    color: var(--bs-white) !important;
+    background: white;
+    color: #CB202D;
     font-weight: 400;
     transition: 0.5s;
 }
@@ -963,7 +963,7 @@
 }
 .footer .footer-item a {
     line-height: 35px;
-    color: var(--bs-dark);
+    color: black;
     transition: 0.5s;
 }
 
@@ -973,7 +973,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-primary);
+    color: white;
 }
 
 /*** Footer End ***/

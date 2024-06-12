@@ -10796,10 +10796,10 @@ fieldset:disabled .btn {
         padding-left: 3rem !important
     }
 
-    .py-lg-0 {
+    /* .py-lg-0 {
         padding-top: 0 !important;
         padding-bottom: 0 !important
-    }
+    } */
 
     .py-lg-1 {
         padding-top: .25rem !important;

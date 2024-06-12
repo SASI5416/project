@@ -667,6 +667,15 @@
     border-radius: 58% 42% 21% 79% / 30% 29% 71% 70%;
 }
 /*** Features End ***/
+/*** Feature ***/
+.progress {
+    height: 5px;
+}
+
+.progress .progress-bar {
+    width: 0px;
+    transition: 3s;
+}
 
 
 /*** Pricing Start ***/
@@ -1044,6 +1053,7 @@
 .bg-color{
     background-color: #EEEEEE;
 }
+
 .card{
     background-color:#f74780;
     border-radius: 10px;
@@ -1060,11 +1070,11 @@
     background-color:#f74780;
     border-radius: 10px;
     text-align: center;
-    margin-top:5px;
+    /* margin-top:5px;
     height:10vh;
     width:25vw;
     color:white;
-    padding-top: 4px;
+    padding-top: 4px; */
     
 
     
@@ -1197,3 +1207,149 @@
     border-radius: 6px;
    
 }
+
+/*** Project ***/
+.project-item a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 6px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.project-item:hover a {
+    opacity: 1;
+}
+
+.project-carousel .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-carousel .owl-dot {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEE2E6;
+    border-radius: 35px;
+    transition: .5s;
+}
+
+.project-carousel .owl-dot:hover,
+.project-carousel .owl-dot.active {
+    color: #FFFFFF;
+    border-color: var(--primary);
+    background: var(--primary);
+}
+
+
+/*** Team ***/
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+.team-item .team-text {
+    position: relative;
+    height: 65px;
+    overflow: hidden;
+}
+
+.team-item .team-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.team-item:hover .team-title {
+    top: -65px;
+}
+
+.team-item .team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 65px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    transition: .5s;
+}
+
+.team-item .team-social .btn {
+    margin: 0 3px;
+}
+
+.team-item:hover .team-social {
+    top: 0;
+}
+
+/* head animation*/
+.headanimate{
+    height:200px;
+    width:100px;
+}
+
+
+/* services button style*/
+.servicebut {
+    padding: 0.8em 1.8em;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: black;
+   }
+   
+   .servicebut::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background:black;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .servicebut:hover::before {
+    width: 105%;
+   }
+   
+   .servicebut:hover {
+    color: white;
+   }
+
+   
+   

@@ -8,8 +8,8 @@
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
-    --bs-pink: #d63384;
-    --bs-red: #dc3545;
+    --bs-pink: #CB202D;
+    --bs-red: #CB202D;
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
     --bs-green: #198754;
@@ -18,12 +18,12 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #f74780;
+    --bs-primary: #CB202D;
     --bs-secondary: #6610f2;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
+    --bs-danger: #CB202D;
     --bs-light: #F6F6FA;
     --bs-dark: #353f4f;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -8344,11 +8344,11 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #f74780 !important
+    color: #CB202D !important
 }
 
 .text-secondary {
-    color: #6610f2 !important
+    color: black;
 }
 
 .text-success {
@@ -8420,7 +8420,7 @@ fieldset:disabled .btn {
 }
 
 .bg-danger {
-    background-color: #dc3545 !important
+    background-color: #CB202D !important
 }
 
 .bg-light {

@@ -1385,7 +1385,7 @@
     animation: typewriter 3s steps(40, end);
   }
 
-  @keyframes flipIn {
+  /* @keyframes flipIn {
     from {
       transform: rotateX(-90deg);
       opacity: 0;
@@ -1397,7 +1397,60 @@
   }
   
   .flip-in {
-    animation: flipIn 1s ease-in-out;
+    animation: flipIn 3s ease-in-out;
+  }
+
+
+
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-in-left {
+    animation: slideInLeft 1.5s ease-out;
+  }
+  
+
+
+
+  @keyframes slideInBottom {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-in-bottom {
+    animation: slideInBottom 1.5s ease-out;
+  }
+
+
+
+
+
+  @keyframes fadeInZoom {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .fade-in-zoom {
+    animation: fadeInZoom 2s ease-in-out;
   }
   
   
+  
+   */

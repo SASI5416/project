@@ -1364,3 +1364,40 @@
    .servicebut:hover {
     color: white;
    }
+
+
+
+
+   @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .typewriter{
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typewriter 3s steps(40, end);
+  }
+
+  @keyframes flipIn {
+    from {
+      transform: rotateX(-90deg);
+      opacity: 0;
+    }
+    to {
+      transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .flip-in {
+    animation: flipIn 1s ease-in-out;
+  }
+  
+  

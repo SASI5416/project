@@ -1189,7 +1189,7 @@
 .service-item:hover {
     margin-top: -10px;
     box-shadow: none;
-    border: 1px solid #DEE2E6;
+    border: 5px solid red;
 }
 
 /*** Img Border ***/

@@ -1226,6 +1226,18 @@
     color: var(--light);
 }
 
+.header-part {
+    background-image: url("../img/App-Development-01-small.jpg");
+    background-size: cover;
+    height: 360px;
+}
+@media screen and (min-width : 768px) {
+    .header-part {
+        background-image: url("../img/App-Development-01.jpg");
+        background-size: cover;
+        height: 360px;
+    }
+}
 
 /*** Facts ***/
 .fact-item {
@@ -1424,6 +1436,73 @@
    .servicebut:hover {
     color: white;
    }
+.ecommerce-bg{
+    background-image:url("/img/ecommers-bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+}
+
+.service-card {
+    height: 100%;
+    position: relative; /* Ensures the pseudo-element is positioned correctly */
+    background: linear-gradient(to bottom, #ef4f5f, #ef4f5f); /* Initial background */
+    color: #ffffff;
+    overflow: hidden; /* Hides the overflow of the pseudo-element */
+    transition: color 0.5s ease; /* Smooth color transition */
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ef4f5f 0%, #ffffff 100%); /* Transition background */
+    z-index: -1;
+    transition: transform 0.5s ease; /* Smooth background transition */
+    transform: translateY(-100%);
+}
+
+.service-card:hover {
+    color: #1f1f1f; /* Text color change */
+}
+
+.service-card:hover::before {
+    transform: translateY(0); /* Move the gradient into view */
+}
+
+
+.service-card h4{
+    color: #ffffff;
+    transition: 0.5s ease-in;
+}
+
+.service-card:hover h4{
+    color: #1f1f1f !important;
+}
+
+.service-card-img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+    color: #ffffff !important;
+}
+
+.service-item-card h4{
+    color: #E84855;
+}
+
+.service-item-card p{
+    text-align: center;
+}
+
+.service-item-card img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+}
 
 
 
@@ -1514,3 +1593,8 @@
   
   
    */
+
+   .icon-contact{
+   font-size: 25px;
+   color: #E84855;
+   }

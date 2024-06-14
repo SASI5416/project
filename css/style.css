@@ -1227,18 +1227,7 @@
 }
 /*** App Development service ***/
 
-.header-part {
-    background-image: url("../img/App-Development-01.jpg");
-    background-size: cover;
-    height: 500px;
-}
-@media screen and (min-width : 768px) {
-    .header-part {
-        background-image: url("../img/App-Development-01.jpg");
-        background-size: cover;
-        height: 500px;
-    }
-}
+
 
 /*** Facts ***/
 .fact-item {

@@ -32,6 +32,7 @@
             .app-development-container {
                 font-family: "Roboto";
                 background-color: white;
+                padding: 20px;
             }
             .app-development-heading {
                 font-weight: bold;
@@ -55,9 +56,9 @@
             .content-container {
                 text-align: left;
             }
-            @media screen and (min-width: 576px) {
+            @media screen and (max-width: 768px) {
                 .content-container {
-                    
+                    width: 80%;
                 }
             }
             .app-development-description {
@@ -67,10 +68,16 @@
             }
             .features-card {
                 background-color: rgb(48, 47, 47);
-                width: 400px;
+                width: 85%;
                 border-radius: 20px;
-                padding: 20px;
+                padding: 15px;
                 text-align: left;
+            }
+            @media screen and (min-width: 586px) {
+                .features-card {
+                width: 400px;
+                padding: 20px;
+                }
             }
             .card-heading {
                 font-size: 25px;
@@ -89,7 +96,7 @@
                 color: white;
             }
             .suggest-box {
-                font-size: 16px;
+                font-size: 13px;
                 color: grey;
                 padding: 10px;
                 background-color: rgb(48, 40, 40);
@@ -162,6 +169,7 @@
                 font-weight: bold;
                 color: #1754a1;
             }
+            
         </style>
     </head>
     <body>
@@ -221,13 +229,13 @@
                            </div-->
 
                     
-                            <div class="col-12 col-md-6 content-container">
+                            <div class="col-12 col-md-6 wow fadeInRight content-container">
                                 <h1 class="sub-heading text-danger mb-3">Establish your presence <span class="span-style text-danger">with applications</span></h1>
                                 <h1 class="side-heading">Best app Development Company</h1>
                                 <p class="app-development-description">At ####, our team of experienced app developers is here to guide you through the App Development process, from brainstorming ideas to launching your app in the app store. We understand that creating an app can be a difficult task, but with our expertise, we can help make the process smoother and less stressful.</p>
                                 <p class="app-development-description">We have specialized in developing both iOS and Android applications. Our team is well-versed in the latest technology and trends, ensuring that your app is up-to-date and user-friendly. We also offer custom app development services, ensuring that your app is tailored to your specific needs and requirements.</p>
                             </div>
-                            <div class="col-12 col-md-6 features-card shadow-lg">
+                            <div class="col-12 col-md-6 features-card wow fadeInLeft shadow-lg" >
                                 <h1 class="card-heading text-white">Features Benfits</h1>
                                 <ul class="features-list">
                                     <li class="list-item text-danger"><i class="tick-icon fa-solid fa-check"></i>Continuous Improvement</li>
@@ -261,7 +269,7 @@
                             </div>
 
                             <div class="container our-works-section">
-                                <h1 class="our-works-heading text-danger m-5">Our <span class="text-danger">Works</span></h1>
+                                <h1 class="our-works-heading text-danger">Our <span class="text-danger">Works</span></h1>
                                 <div class="row justify-content-around p-4">
                                     <div class=" col-md-3 work-card shadow">
                                         <img class="work-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" alt="" />

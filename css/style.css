@@ -1392,10 +1392,16 @@
 
 /* head animation*/
 .headanimate{
-    height:200px;
-    width:100px;
+    height:75px;
+    width:140px;
 }
 
+@media screen and (max-width: 992px){
+    .headanimate {
+        display: none;
+    }
+    
+}
 
 /* services button style*/
 .servicebut {

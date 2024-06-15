@@ -262,16 +262,14 @@
 /*** Navbar End ***/
 
 /*** Single Page Hero Header Start ***/
-.bg-breadcrumb {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05));
-    background-position: center center;
+.bg-contact {
+    background-image: url(../img/contact-us.jpg);
+    /* background-position: center center; */
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 0 60px 0;
-    margin-bottom: 6rem;
-    transition: 0.5s;
+    width: 100%;
+    height: 500px;
 }
 
 .bg-breadcrumb::after {

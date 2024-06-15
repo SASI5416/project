@@ -1442,7 +1442,9 @@
     background-image:url("../img/ecommerce.jpg") ;
     background-size: cover;
     background-position: center;
-    min-height: 60vh;
+    /* min-height: 60vh; */
+    height: 500px;
+    width: 100%;
 }
 
 .service-card {
@@ -1646,12 +1648,162 @@
    }
 
 
+
+
+   .app-development-container {
+    font-family: "Roboto";
+    background-color: white;
+    padding: 10px;
+}
+.app-development-heading {
+    font-weight: bold;
+
+}
+.app-development-heading-caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(48, 47, 47);
+}
+
+.sub-heading {
+    font-size: 35px;
+    font-weight: bold;
+}
+.side-heading {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(97, 97, 97);
+}
+.content-container {
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    .content-container {
+        width: 80%;
+    }
+}
+.app-development-description {
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(48, 47, 47);
+}
+.features-card {
+    background-color: rgb(48, 47, 47);
+    width: 85%;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: left;
+}
+@media screen and (min-width: 586px) {
+    .features-card {
+    width: 400px;
+    padding: 20px;
+    }
+}
+.card-heading {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.list-item {
+    font-size: 18px;
+    color: rgb(151, 23, 44);
+}
+.features-list {
+    list-style-type: none;
+}
+.tick-icon {
+    margin-right: 10px;
+    color: white;
+}
+.suggest-box {
+    font-size: 13px;
+    color: grey;
+    padding: 10px;
+    background-color: rgb(48, 40, 40);
+    border-radius: 20px;
+}
+.suggest-box:hover {
+    background-color: rgb(151, 23, 44);
+    color: rgb(226, 216, 216);
+}
+.banner-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(39, 31, 31);
+    padding: 40px;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+.banner-img {
+    width: 300px;
+    margin-right: 30px;
+}
+.banner-content {
+    text-align: left;
+}
+.banner-description {
+    font-size: 18px;
+    color: rgb(124, 121, 121);
+}
+.our-works-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.work-card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: left;
+}
+.work-card:hover {
+    transform: translateX(30px) translateY(10px);
+}
+
+.work-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.work-card-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(228, 41, 72);
+}
+
+.work-card-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    color: #323f4b;
+}
+
+.read-more {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: #1754a1;
+}
+
+.bg-banner-img {
+    width: 100vw;
+    height: 450px;
+}
+
+
+
    @media(max-width: 992px){
     .web-bg-header1{
         font-size: 25px;
     }
     .web-bg{
-        height: 400px;
+        height: 220px;
     }
     .web-img{
         height: 0%;
@@ -1664,6 +1816,10 @@
         
     }
 
+    .bg-banner-img {
+        height: 220px;
+    }
+
     .web-img9{
         /* height: 0%; */
         margin-top: 15px;
@@ -1672,13 +1828,34 @@
         height: 300px;
         width: 320px;
     }
+
+
+    .bg-contact{
+        background-image: url(../img/contact-us.jpg);
+        width: 100%;
+        height: 220px;
+    }
+
+    .ecommerce-bg{
+        background-image:url("../img/ecommerce.jpg") ;
+        height: 220px;
+        width: 100%;
+    }
+
+    .about-bg{
+        background-image: url(../img/about-bg.jpg);
+        width: 100%;
+        height: 220px;
+    }
    }
+
+
+
+
 
   .footer-text{
     color: black !important;
   }
-
-
   .whatsapp {
     position: fixed;
     bottom: 10px;

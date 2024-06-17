@@ -1027,9 +1027,16 @@
 .web-header{
     color: black;
     font-size: 13px;
+    margin-top: 65px;
     font-weight: 600;
     line-height: 1.3em;
     letter-spacing: 2.5px;
+}
+
+@media(max-width: 992px) {
+    .web-header {
+        margin-top: 0px;
+    }
 }
 
 .web-para{
@@ -1807,9 +1814,9 @@
         height: 220px;
     }
     .web-img{
-        height: 0%;
+        width: 100%;
+        height: 350px;
         margin-top: 20px;
-        margin-left: 17px;
     }
     .web-header1{
         font-size: 25px;

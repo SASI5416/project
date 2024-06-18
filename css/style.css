@@ -1343,7 +1343,7 @@
 .project-carousel .owl-dot.active {
     color: #FFFFFF;
     border-color: var(--primary);
-    background: var(--primary);
+    background: var(--bs-dark);
 }
 
 

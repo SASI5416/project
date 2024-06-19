@@ -1866,8 +1866,8 @@
   }
   .whatsapp {
     position: fixed;
-    bottom: 10px;
-    left: 13px;
+    bottom: 40%;
+    right: 13px;
     z-index: 999;
   }
   .whatsapp i {
@@ -1882,3 +1882,11 @@
     color: white;
     background: linear-gradient(90deg, #7ca482 0, #00b7ac 100%);
   }
+.whatsapp p{
+    background-color: #E84855;
+    color: white;
+    padding: 10px 12px;
+border-radius: 100px;
+border: 3px solid white;
+box-shadow: 4px 4px 8px black;
+}

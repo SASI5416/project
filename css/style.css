@@ -1458,7 +1458,7 @@
 .service-card {
     height: 100%;
     position: relative; /* Ensures the pseudo-element is positioned correctly */
-    background: linear-gradient(to bottom, #ef4f5f, #ef4f5f); /* Initial background */
+    background: linear-gradient(to bottom, #74020e, #9a333d); /* Initial background */
     color: #ffffff;
     overflow: hidden; /* Hides the overflow of the pseudo-element */
     transition: color 0.5s ease; /* Smooth color transition */
@@ -1647,7 +1647,7 @@
 
 
    .bg-nav{
-    background-color: rgb(239, 79, 95) !important;
+    background-color: #fe8707 !important;
    }
 
    .web-img9{
